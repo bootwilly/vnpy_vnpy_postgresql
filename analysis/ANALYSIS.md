@@ -2,7 +2,7 @@
 
 > 倉庫：`bootwilly/vnpy_vnpy_postgresql`　版本：`1.0.3`
 > 定位：VeighNa 的 **資料庫驅動外掛**，基於 peewee ORM 實作 `vnpy.trader.database.BaseDatabase`，把 K 線與 Tick 資料存入 PostgreSQL。不是 App，沒有 UI；由核心的 `get_database()` 依設定動態載入。
-> 流程圖：[FLOWCHART.md](./FLOWCHART.md)　整合分析：`vnpy_vnpy/analysis/INTEGRATED_ANALYSIS.md`
+> 流程圖：[FLOWCHART.md](./FLOWCHART.md)　轉換與寫入方法深入分析：[DB_CONVERSION_AND_WRITE.md](./DB_CONVERSION_AND_WRITE.md)　整合分析：`vnpy_vnpy/analysis/INTEGRATED_ANALYSIS.md`
 
 ## 1. 目錄結構
 
